@@ -6,7 +6,7 @@
     <title>AULA JS</title>
     <style>/*Comentario em Css*/ 
         body {
-            background-color: rgb(13, 13, 226);
+            background-color: rgb(71, 71, 255);
             color: rgb(255, 255, 255);
             font: normal 30pt Arial;
             
@@ -20,10 +20,30 @@
     <h1> Olá, Mundo! </h1>
     <p>Já me livrei da maldição!</p>
     <script>
-    var n1 = Number(window.prompt("Digite um número:"))
-    var n2 = Number(window.prompt("Digite outro número"))
-    var s = n1 + n2;
-    window.alert(`A soma entre ${n1} e ${n2} é: + ${s}`)
-    </script>
+    var n1 = Number(window.prompt("Digite um número:"))/*O PROMPT RETORNA UMA STRING, mas como adicionei o (Number) ele realiza a conversão.*/
+    var n2 = Number(window.prompt("Digite outro número"))//O PROMPT RETORNA UMA STRING
+    var soma = n1 + n2;
+    window.alert(`A soma entre ${n1} e ${n2} é: + ${soma}`)
+    // (NUMBER + NUMBER) PARA ADIÇÃO
+    // (STRING + STRING) PARA CONCATENAÇÃO
+    //Number.parseInt(n) converte para inteiro.
+    //Number.parseFloat(n) converte para ponto flutuante, real.
+    //O Number ja faz essa conversão automáticamente, mas os casos acima podem ser utilizados em casos especifícos, para pedir o valor como inteiro ou real..
+    // Para converter número em string podemos usar String(n) ou n.toString().
+    /* formatação de string:
+    var s = 'Sávio'
+    podemos usar:
+    s.length para contar os caracteres da string.
+    s.toUpperCase() para colocar tudo em Maiúsculas.
+    s.toLowerCase() para colocar tudo em minúsculas.
+    var nome = 'Sávio'
+    var idade = 21
+    var nota = 10.0
+    em vez de usar 'O aluno ' + nome + ' de ' + idade + ' tirou a nota ' + nota + '!'
+    com o uso de `${}`(crases) e ${}(cifrão seguido de chaves onde dentro das mesmas colocaremos as variavéis pode fazer a interpolação com o uso de placeholders)
+    `o aluno ${nome} de ${idade} anos tirou a nota ${nota}`
+    `o aluno Sávio de 21 anos tirou a nota 10'*/
+
+</script>
 </body>
-</html>
+</html> 
