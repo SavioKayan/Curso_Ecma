@@ -16,10 +16,20 @@
 </body>
 <script>
     var nome = window.prompt("Qual seu nome?")
-    document.write(`Olá, <strong>${nome}</strong>! Seu nome tem ${nome.length} letras.<br/>`)//C
-    document.write(`Seu Nome em Maiúsculas é ${nome.toUpperCase()}.<br/>`)//maiusculo
-    document.write(`Seu nome em minúsculas é ${nome.toLowerCase()}.`)//minusculo
+    document.write(`Olá, <strong>${nome}</strong>! Seu nome tem ${nome.length} letras.<br/>`)//o Write escreve na tela.<br> Breakroll(quebradelinha)
+    document.write(`Seu Nome em Maiúsculas é ${nome.toUpperCase()}.<br/>`)//Maiúsculo
+    document.write(`Seu nome em minúsculas é ${nome.toLowerCase()}.`)//minúsculo
 
-    n1.toLocaleString('pt-BR',{style: 'currency', currency: 'BRL'})// Comando para mostrar valor formatado.
+/*Formatação de Números:
+var n1 = 1545
+n1.toFixed(n) = para fixar em n casas décimais.
+n1.toFixed(n).replace('.', ',') = para mudar o . para ,.
+formatando o estilo de uma string.
+string localizada em pt-br o estilo é valor monetário e em BRL(REALR$)
+Comando para mostrar valor formatado.:
+n1.toLocaleString('pt-BR',{style: 'currency', currency: 'BRL'})REAL
+n1.toLocaleString('pt-BR',{style: 'currency', currency: 'USD'}) DOLAR
+n1.toLocaleString('pt-BR',{style: 'currency', currency: 'EURL'})EURO
+    */
 </script>
 </html>
