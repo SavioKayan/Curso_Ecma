@@ -6,27 +6,40 @@
     <title>Primeiros passo com DOM</title>
     <style>
         body{
-            background: rgb(48, 20, 206);
-            color:rgb(255, 255, 255);
+            background: rgb(255, 255, 255);
+            color:rgb(0, 0, 0);
             font: normal 18pt Arial;
         }
     </style>
 </head>
-<body>
+<body> <!--Dom significa Document Object Model
+Nele temos a Árvore:
+Começamos com o window
+location ,  document , history 
+dentro do document está o html e dentro do html
+está o head e o body, sendo childs(filhos de html que é filho de document que é filho de window)
+as tags dento do head são suas childs assim como no body.
+Isso é a hierarquia de tags.-->
+<!--Para navegar entre elementos podemos utilzar chamadas e selecionar os mesmos para navegar.
+Sendo eles: 
+por marca = getElementsByTagName()
+por id = getElementsById()
+por nome = getElementsByName()
+por classe = getElementsByClassName()
+por selector = querySelector() ou querySelectorAll()--> 
     <h1>Inicando estudos em DOM</h1>
-    <p>Aqui vai o resultado</p>
-    <P>Aprendendo a usar o <strong>DOM</strong> em JavaScript.</P>
-    <div id="msg">Clique em mim</div>
-    <script>
+    <p>Aqui vai o resultado.</p>
+    <p>Aprendendo a usar o <strong>DOM</strong> em JavaScript.</p>
+    <div id="msg"> Clique em mim</div>
+    <script> 
         var corpo = window.document.body
-        var p1 = window.document.getElementsByTagName("p")[0]
+        var p1 = window.document.getElementsByTagName('p')[0]
         /*
         var d =window.document.getElementById('msg')
         d.style.background = 'green'
         d.innerText = 'Estou aguardando...'
-        */
-       var d = window.document.querySelector('div#msg')
-       d.style.background = 'blue'
+        */  var d = window.document.querySelector('div#msg')
+        d.style.background = 'blue'
     </script>
 </body>
 </html>
