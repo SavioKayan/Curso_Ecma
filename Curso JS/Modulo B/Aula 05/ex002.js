@@ -3,7 +3,7 @@
 //Regras//
 
 /*
-Variável é um espaço reservado na memória do computador que serve para armazrnar um tipo de informação, recebdno um valor de cada vez e não podendo conter valores smultâneos.
+Variável é um espaço reservado na memória do computador que serve para armazernar um tipo de informação, recebendo um valor de cada vez e não podendo conter valores simultâneos.
 Para declarar ariáveis em JS usamos var ou let e depois o nome da variável, logo em seguida lhe atribuindo um valor inteiro como 1,2,3,4,5,6 ou real como 0.5, 1.2, 1.0, 5,4.
 
 Podem começar em letra,$ ou _.
