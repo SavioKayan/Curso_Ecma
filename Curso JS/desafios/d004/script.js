@@ -7,9 +7,8 @@ function btn01() {
   valor.toLocaleString('pt-BR',{style: 'currency', currency: 'BRL'})
   troco.toLocaleString('pt-BR',{style: 'currency', currency: 'BRL'})
   window.alert(`
-  Você comprou ${produto} que custou 
-  ${custo.toLocaleString('pt-BR',{style: 'currency', currency: 'BRL'})}!
-  Deu ${valor.toLocaleString('pt-BR',{style: 'currency', currency: 'BRL'})} em dinheiro e vai receber ${troco.toLocaleString('pt-BR',{style: 'currency', currency: 'BRL'})}`)
+  Você comprou ${produto} que custou ${custo.toLocaleString('pt-BR',{style: 'currency', currency: 'BRL'})}!
+  Deu ${valor.toLocaleString('pt-BR',{style: 'currency', currency: 'BRL'})} em dinheiro e vai receber ${troco.toLocaleString('pt-BR',{style: 'currency', currency: 'BRL'})} de troco.`)
    
 
 }
