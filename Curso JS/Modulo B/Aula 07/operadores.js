@@ -52,6 +52,7 @@ Os lógicos:
 
 ................................
 Os ternários:
-?
-:
+? true
+: false
+usado para três operandos.
 */
