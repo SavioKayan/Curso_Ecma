@@ -53,8 +53,9 @@ Os relacionais: apresentam valor TRUE OR FALSE.
 <= = menor ou igual 
 == = igual
 != = diferente
-=== = idêntico (tem o mesmo tipo e valor)
-!== = diferente(testa valor e tipo)
+=== = idêntico (tem o mesmo tipo e valor.)
+!== = diferente(testa valor e tipo.)
+
 
 ................................
 Os lógicos:
