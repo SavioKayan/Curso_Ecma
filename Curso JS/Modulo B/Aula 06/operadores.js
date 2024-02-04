@@ -1,13 +1,6 @@
 /*tipo Number pode ser inteiro ou float.
 O BigInt é um valor exclusivamente inteiro capaz de ultrapassar o limite do Number.
 
-
-
-
-
-
-
-
 /* O JS possui alguns tipos de operadores, sendo eles:
 Ordem dos operados em JS.
 1º aritméticos () ** / * % + -

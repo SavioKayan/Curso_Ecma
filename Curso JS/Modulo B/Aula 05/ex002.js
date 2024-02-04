@@ -29,7 +29,7 @@ Variáveis(STRING, NUMBER, BOOLEAN,NULL,UNDEFINED,SYMBOL) podem guardar numéros
 Também podem guarda strings(conjunto de caracteres compostos por numeros, letras e simbolos)
 e também do tipo booleano(true ou false).
 Null signifca que a variável está sem nenhum valor atribuido, valor nulo ou vazio.
-undefined é usado para representar uma variável sem valor.
+undefined é usado para representar uma variável sem valor, indica que a variavel não recebeu nenhum valor nunca.
 object e function
 type of mostra o tipo da variável.
 
