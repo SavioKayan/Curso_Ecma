@@ -7,7 +7,7 @@ Ordem dos operados em JS.
 2ºrelacionais
 3ºlógicos ! && ||
 atribuição
-ternário (sempre feitos por ultimo)
+ternário (sempre feitos por ultimo.)
 */
 //.......................//
 /* Para agrupamento utilizamos: ()
