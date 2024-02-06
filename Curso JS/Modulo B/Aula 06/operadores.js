@@ -57,7 +57,7 @@ Os lógicos:
 || = disjunção (ou)
 
 ................................
-Os ternários:
+Os ternários são:
 ? true
 : false
 usado para três operandos.
